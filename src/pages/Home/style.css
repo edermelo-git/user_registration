@@ -6,7 +6,7 @@
  }
 
 h1{ 
-    color: #fffffe;
+    color: #66738B;
     font-size: 35px;
  }
 
@@ -16,7 +16,7 @@ form{
     gap: 30px;
     padding: 30px;
     border-radius: 10px;
-    background-color: black;
+    background-color: #E1E7EF;
     max-width: 50%;
     width: 400px;
     margin-bottom: 20px;
@@ -25,7 +25,7 @@ form{
 
 button{
     border-radius: 10px;
-    background-color: #ff8906;
+    background-color: #65738B;
     height: 40px;
     border: none;
     font-weight: bold;
@@ -42,7 +42,7 @@ input {
     border: 1px solid #48456c;
     border-radius: 30px;
     height: 40px;
-    background-color:  #363653;;
+    background-color:  #363653;
     color: white ;
     padding-left: 10px;
     font-size: 16px;
