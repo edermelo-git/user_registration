@@ -13,7 +13,7 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     padding: 30px;
     border-radius: 10px;
     background-color: #E1E7EF;
@@ -40,7 +40,7 @@ button:hover {
 
 input {
     border: 1px solid #48456c;
-    border-radius: 30px;
+    border-radius: 10px;
     height: 40px;
     background-color:  #363653;
     color: white ;
