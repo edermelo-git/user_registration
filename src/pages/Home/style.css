@@ -19,8 +19,7 @@ form{
     background-color: #E1E7EF;
     max-width: 50%;
     width: 400px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 
 button{
@@ -30,8 +29,7 @@ button{
     border: none;
     font-weight: bold;
     cursor: pointer;
-    color: #fffffe;
-    
+    color: #fffffe; 
 }
 
 button:hover {
@@ -48,4 +46,34 @@ input {
     font-size: 16px;
     padding-left: 10px;
     outline: none;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  background: #252547;
+  padding: 16px;
+  border-radius: 12px;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 350px;
+  color: white;
+}
+
+.btn_delete{
+    background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_delete img {
+  width: 22px;
+  height: 22px;
+  transition: transform 0.2s;
+}
+
+.btn_delete img:hover {
+  transform: scale(1.2);
 }

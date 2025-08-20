@@ -45,11 +45,13 @@ function Home() {
       </form>
 
       {users.map(user => (
-        <div key={user.id}>
-          <p>Name: {user.name}</p>
-          <p>Age: {user.age}</p>
-          <p>E-mail: {user.email}</p>
-          <button className="button trash">
+        <div key={user.id} className='card'>
+          <div className="card-info">
+            <p><strong>Name:</strong> {user.name}</p>
+            <p><strong>Age:</strong> {user.age}</p>
+            <p><strong>E-mail:</strong> {user.email}</p>
+          </div>
+          <button className="btn_delete">
             <img src={Trash} alt="Trash icon" />
           </button>
         </div>
