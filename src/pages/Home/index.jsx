@@ -20,7 +20,7 @@ function Home() {
     }
   }
 
-  async function createUrsers() {
+  async function createUsers() {
     await api.post('/users', {
       name: inputName.current.value,
       age: inputAge.current.value,
@@ -46,7 +46,7 @@ function Home() {
         <input placeholder="Name" name="name" type="text" ref={inputName} />
         <input placeholder="Age" name="age" type="number" ref={inputAge} />
         <input placeholder="E-mail" name="email" type="email" ref={inputEmail} />
-        <button type="button" onClick={createUrsers}>Register</button>
+        <button type="button" onClick={createUsers}>Register</button>
       </form>
 
       {users.map(user => (
