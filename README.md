@@ -1,5 +1,5 @@
 
-<h1> English - US 🇧🇷 </h1>
+<h1> English - US </h1>
 
 <h2>🧾 Project Description</h2>
 
