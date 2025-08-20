@@ -25,8 +25,10 @@ function Home() {
       name: inputName.current.value,
       age: inputAge.current.value,
       email: inputEmail.current.value
-      
+
     })
+
+    getUsers()
 
   }
 
